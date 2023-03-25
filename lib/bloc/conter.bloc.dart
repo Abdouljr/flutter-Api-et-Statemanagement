@@ -15,9 +15,9 @@ class ConterBloc extends Bloc<ConterEvent, int> {
         case ConterEvent.INCREMENT:
           emit(state + 1);
           break;
-       
+
         case ConterEvent.MULTIPLICATION:
-         emit(state * 2);
+          emit(state * 2);
           break;
       }
     });
